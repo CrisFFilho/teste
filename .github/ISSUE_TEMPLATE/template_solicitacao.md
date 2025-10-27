@@ -3,7 +3,7 @@ name: Template Solicitação
 about: Template básico para ISSUES que vem da Solicitação!
 title: ''
 labels: ''
-assignees: 'me'
+assignees: ''
 
 ---
 
