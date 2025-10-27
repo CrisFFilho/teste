@@ -1,0 +1,38 @@
+name: Nova Task
+description: Template para criação de uma nova tarefa agendada
+title: "[Task]: "
+labels: ["task", "agendada"]
+assignees:
+  - seu-usuario-github
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por contribuir! Preencha os campos abaixo para criar uma nova task.
+  - type: input
+    id: titulo
+    attributes:
+      label: Título da Task
+      placeholder: Ex: Gerar relatório semanal de vendas
+    validations:
+      required: true
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descrição
+      placeholder: Descreva o que essa task deve fazer, incluindo contexto e objetivos.
+    validations:
+      required: true
+  - type: input
+    id: schedule
+    attributes:
+      label: Cron Schedule
+      placeholder: Ex: 0 8 * * 1 (toda segunda às 8h)
+  - type: dropdown
+    id: prioridade
+    attributes:
+      label: Prioridade
+      options:
+        - Alta
+        - Média
+        - Baixa
