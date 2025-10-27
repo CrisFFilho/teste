@@ -1,6 +1,6 @@
 ---
-name: Template padrão de solicitação
-about: ''
+name: Template Solicitação
+about: Template básico para ISSUES que vem da Solicitação!
 title: ''
 labels: ''
 assignees: 'me'
